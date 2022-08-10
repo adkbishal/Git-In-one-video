@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="myName" id="name" required>      
+
+        </div>
+        <br>
+        <div>
+            <label for="sports">Sports</label>
+            <select name="mysport" id="sports">
+                <option value="football" selected>Football</option>
+                <option value="cricket">Cricket</option>
+                <option value="tt">Table tennis</option>
+                <option value="Others">Others games</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Roll: <input type="text" name="myRole" value="Enter your roll number">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="mydate">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myemail" value="Enter your email id">
+        </div>
+        <br>
+        <div>
+            Are your eligible?: <input type="checkbox" name="myEligible">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="terms and condition">Please accept the terms and condition
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="MyGender"> Female <input type="radio" name="MyGender">
+            
+        </div>
+        <br>
+        <div>
+          Write down some thoughts:<textarea name="mytext" cols="30" rows="10">
+          </textarea>>
+
+        </div>
+        <input type="reset" value="Reset Now">
+
+
+
+
+        <input type="submit" value="Submit Right now">
+
+    </form>
+</body>
+</html>
